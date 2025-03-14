@@ -11,6 +11,7 @@ namespace Exam
         ///1-misol
         public static string ReturnLastFourWord(string word)
         {
+            ?
             word = word.Substring((word.Length - 1) - 3);
             return word;
         }
